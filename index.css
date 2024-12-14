@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    user-select: none; /* 防止用户选中文本 */
+    user-select: none;
 }
 
 body {
@@ -13,6 +13,27 @@ body {
     color: #333;
     line-height: 1.6;
 }
+
+.alert {
+    background-color: #ffffe0;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+    color: #333;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alert i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ffcc00;
 
 .navbar {
     background-color: #333;
