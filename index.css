@@ -221,3 +221,18 @@ footer .container {
 footer p {
     margin: 8px auto;
 }
+
+.navbar .visitor-count {
+    color: rgba(255,255,255,0.9);
+    padding: 8px 15px;
+    font-size: 0.95em;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .navbar .visitor-count {
+        order: -1;
+        padding: 8px 0;
+    }
+}
